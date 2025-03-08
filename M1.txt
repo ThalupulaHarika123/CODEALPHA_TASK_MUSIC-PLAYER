@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    <div class="player">
+        <img src="C:\Users\hhr22\OneDrive\Pictures\img1.jpg" alt="img">
+        <h2>Music Player</h2>
+        <audio id="audio" src="C:\Users\hhr22\Music\song.mp3.mp3"></audio>
+        <button onclick="playAudio()">Play</button>
+        <button onclick="pauseAudio()">Pause</button>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
